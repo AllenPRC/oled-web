@@ -25,13 +25,13 @@ os.environ['XAUTHORITY'] = '/home/tju/.Xauthority'
 # LLM_CONFIG = {
 #     "model_name": os.getenv("MODEL_NAME", "gpt-4o"),
 #     "base_url": os.getenv("BASE_URL", "https://ai98.vip/v1"),
-#     "api_key": os.getenv("API_KEY", "sk-ATTA33l8XGlDgasiKjXKFEm2EF0lm0hreKesGB6e8dqoZxct")
+#     "api_key": os.getenv("API_KEY", "")
 # }
 
 LLM_CONFIG = {
     "model_name": os.getenv("MODEL_NAME", "qwen-vl-max"),
     "base_url": os.getenv("BASE_URL", "https://dashscope.aliyuncs.com/compatible-mode/v1"),
-    "api_key": os.getenv("API_KEY", "sk-7fbb65e9ab6f40bcb3acc916288a324b")
+    "api_key": os.getenv("API_KEY", "")
 }
 
 @dataclass
